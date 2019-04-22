@@ -1,4 +1,4 @@
-# Brastlewark Index: empowering quests
+# Brastlewark Index
 
 Brastlewark Index is an index where you can find all the information regarding the inahbitant of Bratleward you will need fr your quest.
 In this platform you can easily naviagte and filter all the inhabitant in the city, to easily find someone who trade with.
