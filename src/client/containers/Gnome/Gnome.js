@@ -20,6 +20,10 @@ const ContentWrapper = styled(Card)`
   margin-left: 15%;
   min-height: cal(100vh - 100px);
   padding: 30px 100px;
+
+  @media (max-width: 480px) {
+    width: 100%;
+  }
 `;
 
 const Color = styled(Grid)`
