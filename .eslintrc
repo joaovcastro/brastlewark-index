@@ -1,0 +1,26 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb",
+    "plugin:jest/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["import", "json", "jest", "prettier"],
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "globals": {
+    "fetch": true
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "import/extensions": 0,
+    "import/no-dynamic-require": 0,
+    "import/no-extraneous-dependencies": 0,
+    "no-unused-expressions": 0,
+    "no-plusplus": "off",
+    "array-callback-return": "off"
+  }
+}
+  
