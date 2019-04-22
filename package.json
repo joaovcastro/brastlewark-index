@@ -47,7 +47,6 @@
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "babel-plugin-file-loader": "^1.1.1",
-    "bootstrap": "^4.3.1",
     "es6-promise": "^4.2.6",
     "express": "^4.16.4",
     "fast-memoize": "^2.5.1",
@@ -58,7 +57,6 @@
     "raf": "^3.4.1",
     "rc-slider": "^8.6.9",
     "react": "^16.8.6",
-    "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
     "react-lazyload": "^2.5.0",
     "react-redux": "^7.0.2",

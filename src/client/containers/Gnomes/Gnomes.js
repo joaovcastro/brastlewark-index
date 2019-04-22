@@ -1,9 +1,9 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import styled from 'styled-components';
 import { mapKeys } from 'lodash';
 import { connect } from 'react-redux';
 import { compose, withStateHandlers } from 'recompose';
-import { Button, Grid } from '@material-ui/core';
+import { Button, Grid, Typography } from '@material-ui/core';
 import { func, object, bool, number } from 'prop-types';
 import fetchGnomes from '../../actions/fetchGnomes';
 import InfoCard from '../../components/InfoCard';
@@ -29,11 +29,12 @@ const ButtonContainer = styled(Grid)`
     height: 65px;
   }
 `;
+
 const CustomNavigation = styled(Navigation)`
   top: 0;
 `;
 
-const getMargin = showFilter => (showFilter ? 300 : 0);
+const getMargin = showFilter => (showFilter ? 330 : 0);
 
 class Gnomes extends Component {
   componentDidMount() {
@@ -88,7 +89,14 @@ class Gnomes extends Component {
               })
             ) : (
               <Grid item xs={12}>
-                <h3> No Gnomes found. Please try again. </h3>
+                <Typography
+                  variant="h3"
+                  paragraph
+                  style={{ marginTop: '30px' }}
+                >
+                  No Gnomes found
+                </Typography>
+                <Typography variant="h4">Please try again.</Typography>
               </Grid>
             )}
             <ButtonContainer
