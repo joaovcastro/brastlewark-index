@@ -10,11 +10,9 @@
     "build-babel-client": "babel src/client --copy-files --out-dir ./dist/public",
     "clean": "rimraf dist node_modules",
     "start": "node ./dist/server.js",
-    "nodemon": "nodemon ./src/client/index.js",
     "test": "jest ./src",
-    "dev": "npm run -d dev:server; npm run dev:client",
-    "dev:client": "webpack-dev-server --open --mode=development",
-    "dev:server": "nodemon ./src/server/web.server.js"
+    "client": "webpack-dev-server --open --mode=development",
+    "server": "nodemon ./src/server/web.server.js"
   },
   "jest": {
     "setupFilesAfterEnv": [
