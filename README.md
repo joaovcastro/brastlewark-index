@@ -15,9 +15,11 @@ Alternatively, the user can just choose to browse the entire index
 ### Listings
 
 After choosing a trade in the homepage, the user is redirected to the listings, dislpaying basic information regarding the gnomes who inhabit Brastlewark.
+
 ![List](https://i.ibb.co/YTP0wR9/gnome-list.png)
 
 If the results are still vague, the user can toggle a filter in the bavbar, which allows for further filtering
+
 ![ListFilter](https://i.ibb.co/sqtmrpL/Filter.png)
 
 ### Gnome details
